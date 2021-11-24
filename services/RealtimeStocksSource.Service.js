@@ -1,0 +1,3 @@
+class RealtimeStocksSourceService {
+  constructor() {}
+}

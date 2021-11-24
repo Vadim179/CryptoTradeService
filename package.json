@@ -1,0 +1,24 @@
+{
+  "name": "crypto-bot",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --exec babel-node --config-file ./.babelrc src/index.js",
+    "format": "prettier --write \"**/*.js\""
+  },
+  "dependencies": {
+    "aproba": "^2.0.0",
+    "chalk": "^4.1.2",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/node": "^7.16.0",
+    "babel-plugin-module-resolver": "^4.1.0"
+  }
+}
